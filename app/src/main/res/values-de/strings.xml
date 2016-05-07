@@ -3,9 +3,9 @@
     <string name="app_name">Linux Tutor Companion App</string>
     <string name="action_settings">Informationen</string>
     <string name="About1">Über diese App</string>
-    <string name="About2">Entwickelt und gepflegt durch Niclas Rautenhaus</string>
+    <string name="About2">Entwickelt und gepflegt durch:\nNiclas Rautenhaus</string>
     <string name="About3">Kontakt unter: info@linux-tutor.de</string>
-    <string name="About4">Weitere Informationen unter www.linux-tutor.de</string>
+    <string name="About4">Weitere Informationen unte:\nwww.linux-tutor.de</string>
     <string name="About5">Diese App ist nur für Lernzwecke erstellt worden und verfolgt keine kommerziellen Ziele.\nDiese App ist werbefrei, und wird es immer bleiben.\nWenn Sie mich dennoch unterstützen möchten, können Sie dies gerne über Flattr tun:</string>
     <string name="lelist0_topic">Distributionen</string>
     <string name="lelist1_topic">Open Source</string>
@@ -60,4 +60,5 @@
     <string name="manual2">1)\nWählen Sie eine Kategorie:\n\u2022 Linux Essentials\n\u2022 LPIC-1 101\n\u2022 LPIC-1 102</string>
     <string name="manual3">2)\n Wählen Sie ein Objekt aus der Liste, z.B "Distributionen"</string>
     <string name="manual4">3)\n Oben werden  6 Tabs angezeigt, nummeriert von 1 bis 6. Diese stehen für:\n\u2022 1: Thema\n\u2022 2:Einleitung\n\u2022 3: Aufgaben\n\u2022 4: Vorgehensweise\n\u2022 5: Materialien\n\u2022 6: Evaluation</string>
+    <string name="AboutSource">Der Quellcode dieser App kann hier eingesehen werden:  https://github.com/Linux-Tutor/LinuxTutorCompanionApp.git\nDer Quellcode untersteht den GPL v3.0 Lizenzbedingungen.</string>
 </resources>
