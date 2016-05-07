@@ -12,34 +12,50 @@
             android:name=".MainActivity"
             android:icon="@mipmap/lt_logo"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter><!-- ATTENTION: This intent was auto-generated. Follow instructions at
+  https://g.co/AppIndexing/AndroidStudio to publish your URLs. -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- ATTENTION: This data URL was auto-generated. We recommend that you use the HTTP scheme.
+                  TODO: Change the host or pathPrefix as necessary. -->
+                <data
+                    android:host="linuxtutorcompanionapp.linux_tutor.de"
+                    android:pathPrefix="/main"
+                    android:scheme="http" />
             </intent-filter>
         </activity>
-        <activity android:name=".DisplayLinuxEssentialsLanding" />
-        <activity android:name=".DisplayLPIC1101Landing" />
-        <activity android:name=".DisplayLPIC1102Landing" />
-        <activity android:name=".About" />
-        <activity android:name=".lelists.lelist0" />
-        <activity android:name=".lelists.lelist1" />
-        <activity android:name=".lelists.lelist2" />
-        <activity android:name=".lelists.lelist3" />
-        <activity android:name=".lelists.lelist4" />
-        <activity android:name=".lelists.lelist5" />
-        <activity android:name=".lelists.lelist6" />
-        <activity android:name=".lelists.lelist7" />
-        <activity android:name=".lelists.lelist8" />
-        <activity android:name=".lelists.lelist9" />
-        <activity android:name=".lelists.lelist11" />
-        <activity android:name=".lelists.lelist12" />
-        <activity android:name=".lelists.lelist13" />
-        <activity android:name=".lelists.lelist14" />
-        <activity android:name=".lelists.lelist15" />
-        <activity android:name=".lelists.lelist10" />
-        <activity android:name=".display_manual"></activity>
+        <activity android:name=".DisplayLinuxEssentialsLanding" android:screenOrientation="portrait"/>
+        <activity android:name=".DisplayLPIC1101Landing" android:screenOrientation="portrait"/>
+        <activity android:name=".DisplayLPIC1102Landing" android:screenOrientation="portrait"/>
+        <activity android:name=".About" android:screenOrientation="portrait"/>
+        <activity android:name=".lelists.lelist0" android:screenOrientation="portrait"/>
+        <activity android:name=".lelists.lelist1" android:screenOrientation="portrait"/>
+        <activity android:name=".lelists.lelist2" android:screenOrientation="portrait"/>
+        <activity android:name=".lelists.lelist3" android:screenOrientation="portrait"/>
+        <activity android:name=".lelists.lelist4" android:screenOrientation="portrait"/>
+        <activity android:name=".lelists.lelist5" android:screenOrientation="portrait"/>
+        <activity android:name=".lelists.lelist6" android:screenOrientation="portrait"/>
+        <activity android:name=".lelists.lelist7" android:screenOrientation="portrait"/>
+        <activity android:name=".lelists.lelist8" android:screenOrientation="portrait"/>
+        <activity android:name=".lelists.lelist9" android:screenOrientation="portrait"/>
+        <activity android:name=".lelists.lelist11" android:screenOrientation="portrait"/>
+        <activity android:name=".lelists.lelist12" android:screenOrientation="portrait"/>
+        <activity android:name=".lelists.lelist13" android:screenOrientation="portrait"/>
+        <activity android:name=".lelists.lelist14" android:screenOrientation="portrait"/>
+        <activity android:name=".lelists.lelist15" android:screenOrientation="portrait"/>
+        <activity android:name=".lelists.lelist10" android:screenOrientation="portrait"/>
+        <activity android:name=".display_manual" android:screenOrientation="portrait">
+
+        </activity>
     </application>
 
 </manifest>
