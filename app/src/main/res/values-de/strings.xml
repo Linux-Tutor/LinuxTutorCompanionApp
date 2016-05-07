@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Linux Tutor Companion App</string>
+    <string name="action_settings">Informationen</string>
+    <string name="About1">Über diese App</string>
+    <string name="About2">Entwickelt und gepflegt durch Niclas Rautenhaus</string>
+    <string name="About3">Kontakt unter: info@linux-tutor.de</string>
+    <string name="About4">Weitere Informationen unter www.linux-tutor.de</string>
+    <string name="About5">Diese App ist nur für Lernzwecke erstellt worden und verfolgt keine kommerziellen Ziele.\nDiese App ist werbefrei, und wird es immer bleiben.\nWenn Sie mich dennoch unterstützen möchten, können Sie dies gerne über Flattr tun:</string>
+    <string name="lelist0_topic">Distributionen</string>
+    <string name="lelist1_topic">Open Source</string>
+    <string name="lelist2_topic">Arbeiten mit Linux</string>
+    <string name="lelist3_topic">Arbeiten auf der CLI</string>
+    <string name="lelist4_topic">Hilfe bekommen in der CLI</string>
+    <string name="lelist5_topic">Verzeichnisse und Protokolldateien</string>
+    <string name="lelist6_topic">Archivierung</string>
+    <string name="lelist7_topic">Ein- / Ausgabeumleitung</string>
+    <string name="lelist8_topic">Scripting</string>
+    <string name="lelist9_topic">Hardware</string>
+    <string name="lelist10_topic_subjects">Themenschwerpunkte sind: \n\u2022 Kernel, Prozesse, PIDs\n\u2022 syslog, klog, dmesg\n\u2022 Libraries, Log-Verzeichnisse</string>
+    <string name="lelist10_topic">Dateispeicherung</string>
+    <string name="lelist11_topic">Der PC im Netzwerk</string>
+    <string name="lelist12_topic">Benutzertypen \nVerwalten von Benutzern und Gruppen</string>
+    <string name="lelist13_topic">Dateiberechtigungen</string>
+    <string name="lelist14_topic">Besondere Dateien und Verzeichnisse</string>
+
+    <string-array name="LinuxEssentialsLandinglist">
+        <item >Distributionen</item>
+        <item >Open Source</item>
+        <item >Arbeiten mit Linux</item>
+        <item >Arbeiten auf der CLI</item>
+        <item >Hilfe bekommen in der CLI</item>
+        <item >Verzeichnisse und Protokolldateien</item>
+        <item >Archivierung</item>
+        <item >Ein- / Ausgabeumleitung</item>
+        <item >Scripting</item>
+        <item >Hardware</item>
+        <item >Dateispeicherung</item>
+        <item >Der PC im Netzwerk</item>
+        <item >Benutzertypen / Verwaltung von Benutzern und Gruppen</item>
+        <item>Dateiberechtigungen</item>
+        <item>Besondere Dateien und Verzeichnisse</item>
+    </string-array>
+    <string name="lelist0_topic_subjects">Themenschwerpunkte sind: \n\u2022 Open-Source-Philosophie\n\u2022 Distributionen\n\u2022 Wahl eines Betriebssystemes\n\u2022 Supportzyklen\n\u2022 GUI vs. CLI</string>
+    <string name="lelist5_topic_subjects">Themenschwerpunkte sind: \n\u2022 Dateien und Verzeichnisse\n\u2022 Versteckte Dateien und Ordner\n\u2022 Pfadangaben\n\u2022 Navigation im Dateisystem</string>
+    <string name="lelist1_topic_subjects">Themenschwerpunkte sind: \n\u2022 Desktop-Anwendungen\n\u2022 Server-Anwendungen\n\u2022 Paketverwaltungstools\n\u2022 Lizenzen\n\u2022 FSF,OSI</string>
+    <string name="lelist2_topic_subjects">Themenschwerpunkte sind: \n\u2022 Desktop-Kentnisse\n\u2022 Erste Schritte auf der CLI\n\u2022 Kommerzielle Linuxe</string>
+    <string name="lelist3_topic_subjects">Themenschwerpunkte sind: \n\u2022 Shell-Grundkenntnisse\n\u2022 Struktur und Eingabe von Kommandos\n\u2022 Kommandooptionen\n\u2022 Variablen, Globbing, Suchmuster</string>
+    <string name="lelist4_topic_subjects">Themenschwerpunkte sind: \n\u2022 Man(pages)\n\u2022 Info\n\u2022 locate, whatis, whereis</string>
+    <string name="lelist6_topic_subjects">Themenschwerpunkte sind: \n\u2022 Archivierung von Dateien und Verzeichnissen\n\u2022 Archive, Kompressionsarten\n\u2022 Archivierungsprogramme\n\u2022 Entpacken von Archiven</string>
+    <string name="lelist7_topic_subjects">Themenschwerpunkte sind: \n\u2022 Pipelines\n\u2022 Umleitung von Eingabe und Ausgabe\n\u2022 STDIN, STDOUT, STDERR\n\u2022 Dateifilterung, Dateiverarbeitung</string>
+    <string name="lelist8_topic_subjects">Themenschwerpunkte sind: \n\u2022 Textbe- und Verarbeitung\n\u2022 Grundlegende Shellscripte\n\u2022 Schleifen, Rückgabewerte, Argumente</string>
+    <string name="lelist9_topic_subjects">Themenschwerpunkte sind: \n\u2022 Hardware\n\u2022 Treiber</string>
+    <string name="lelist11_topic_subjects">Themenschwerpunkte sind: \n\u2022 Internet, Netzwerk, Router\n\u2022 DNS\n\u2022 Netzwerkeinstellungen, Konfigurationsdateien\n\u2022 route, ping, netstat, ifconfig</string>
+    <string name="lelist12_topic_subjects">Themenschwerpunkte sind: \n\u2022 Root, Systemuser, Normale User\n\u2022 Befehle zur Benutzer/Gruppenverwaltung\n\u2022 Systemdateien für Benutzer/Gruppen\n\u2022 UIDs, GIDs</string>
+    <string name="lelist13_topic_subjects">Themenschwerpunkte sind: \n\u2022 Dateiberechtigungen\n\u2022 Rechteverwaltung</string>
+    <string name="lelist14_topic_subjects">Themenschwerpunkte sind: \n\u2022 Hard- /Softlinks\n\u2022 /etc, /var, /tmp\n\u2022 Spezielle Berechtigungen</string>
+    <string name="manualbutton">Wie funktioniert die App?</string>
+    <string name="manual1">Bedienungsanleitung</string>
+    <string name="manual2">1)\nWählen Sie eine Kategorie:\n\u2022 Linux Essentials\n\u2022 LPIC-1 101\n\u2022 LPIC-1 102</string>
+    <string name="manual3">2)\n Wählen Sie ein Objekt aus der Liste, z.B "Distributionen"</string>
+    <string name="manual4">3)\n Oben werden  6 Tabs angezeigt, nummeriert von 1 bis 6. Diese stehen für:\n\u2022 1: Thema\n\u2022 2:Einleitung\n\u2022 3: Aufgaben\n\u2022 4: Vorgehensweise\n\u2022 5: Materialien\n\u2022 6: Evaluation</string>
+</resources>
