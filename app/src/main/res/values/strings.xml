@@ -8,9 +8,12 @@
     <string name="About4">Further information at:\nwww.linux-tutor.de</string>
     <string name="About5">This app is for educational purposes only and does not pursue commercial interests. \nThis app is Ad-free and will always be. \nIf you however would like to donate a few bucks, feel free to do so on Flattr: </string>
     <string name="manual1">Manual</string>
-    <string name="manual2">1)\n Choose a category:\n\u2022 Linux Essentials\n\u2022 LPIC-1 101\n\u2022 LPIC-1 102</string>
-    <string name="manual3">2)\n Choose an item from the list, e.g "Distributions"</string>
-    <string name="manual4">3)\n You are presented with 6 tabs, numbered from 1 to 6. These stand for:\n\u2022 1: Topic\n\u2022 2:Introduction\n\u2022 3: Tasks\n\u2022 4: Approach\n\u2022 5: Materials\n\u2022 6: Evaluation</string>
+    <string name="manualtab1">Manual - Step 1</string>
+    <string name="manualtab2">Manual - Step 2</string>
+    <string name="manualtab3">Manual - Step 3</string>
+    <string name="manual2">Choose a category:\n\u2022 Linux Essentials\n\u2022 LPIC-1 101\n\u2022 LPIC-1 102</string>
+    <string name="manual3">Choose an item from the list, e.g "Distributions"</string>
+    <string name="manual4">You are presented with 6 tabs, numbered from 1 to 6. These stand for:\n\u2022 1: Topic\n\u2022 2: Introduction\n\u2022 3: Tasks\n\u2022 4: Approach\n\u2022 5: Materials\n\u2022 6: Evaluation</string>
     <string name="AboutSource">The source code of this app can be obtained by visiting https://github.com/Linux-Tutor/LinuxTutorCompanionApp.git\nThe source code is provided under the terms of the GPL v3.0.</string>
 
     <string name="lelist0_topic">Distributions</string>
@@ -63,5 +66,5 @@
     </string-array>
 
 
-    <string name="gplv30" translatable="false">\nThe LinuxTutor Companion App is a offline version of the corresponding website.\n\nCopyright (C) 2016  Niclas Rautenhaus\nThis program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.\nYou should have received a copy of the GNU General Public License along with this program.\nIf not, see http://www.gnu.org/licenses.\nThe developer Niclas Rautenhaus can be contacted via EMail at: info@linux-tutor.de</string>
-</resources>
+    <string name="gplv30" translatable="false">\nThe LinuxTutor Companion App is a offline version of the corresponding website.\n\nCopyright &#169; 2016  Niclas Rautenhaus\nThis program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.\nYou should have received a copy of the GNU General Public License along with this program.\nIf not, see http://www.gnu.org/licenses.\nThe developer Niclas Rautenhaus can be contacted via EMail at: info@linux-tutor.de</string>
+    </resources>
