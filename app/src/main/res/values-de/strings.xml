@@ -41,6 +41,16 @@
         <item>Dateiberechtigungen</item>
         <item>Besondere Dateien und Verzeichnisse</item>
     </string-array>
+
+    <string-array name="LinuxEssentialsTabs">
+        <item>Thema</item>
+        <item>Einleitung</item>
+        <item>Aufgabe</item>
+        <item>Vorgehen</item>
+        <item>Materialien</item>
+        <item>Evaluation</item>
+    </string-array>
+
     <string name="lelist0_topic_subjects">Themenschwerpunkte sind: \n\u2022 Open-Source-Philosophie\n\u2022 Distributionen\n\u2022 Wahl eines Betriebssystemes\n\u2022 Supportzyklen\n\u2022 GUI vs. CLI</string>
     <string name="lelist5_topic_subjects">Themenschwerpunkte sind: \n\u2022 Dateien und Verzeichnisse\n\u2022 Versteckte Dateien und Ordner\n\u2022 Pfadangaben\n\u2022 Navigation im Dateisystem</string>
     <string name="lelist1_topic_subjects">Themenschwerpunkte sind: \n\u2022 Desktop-Anwendungen\n\u2022 Server-Anwendungen\n\u2022 Paketverwaltungstools\n\u2022 Lizenzen\n\u2022 FSF,OSI</string>
