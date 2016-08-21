@@ -14,38 +14,70 @@
     <string name="manual2">Choose a category:\n\u2022 Linux Essentials\n\u2022 LPIC-1 101\n\u2022 LPIC-1 102</string>
     <string name="manual3">Choose an item from the list, e.g "Distributions"</string>
     <string name="manual4">You are presented with 6 tabs, numbered from 1 to 6. These stand for:\n\u2022 1: Topic\n\u2022 2: Introduction\n\u2022 3: Tasks\n\u2022 4: Approach\n\u2022 5: Materials\n\u2022 6: Evaluation</string>
-    <string name="AboutSource">The source code of this app can be obtained by visiting https://github.com/Linux-Tutor/LinuxTutorCompanionApp.git\nThe source code is provided under the terms of the GPL v3.0.</string>
+    <string name="AboutSource">The source code of this app can be obtained by visiting\nhttps://github.com/Linux-Tutor/LinuxTutorCompanionApp.git\nThe source code is provided under the terms of the GPL v3.0.</string>
 
     <string name="lelist0_topic">Distributions</string>
     <string name="lelist0_topic_subjects">Key subjects are: \n\u2022 Open-Source-Philosophy\n\u2022 Distributions\n\u2022 Choosing a distribution\n\u2022 Support cycles\n\u2022 GUI vs. CLI</string>
+    <string name="lelist0_introduction">These tasks deal with selected Linux distributions, the question on which systems Linux is deployed, as well as basic principles of Open Source.\n\nFurthermore, a look is taken at maintenance cycles, the differences between a CLI and a GUI and the key differences between the three big OS Windows, Mac OS and Linux.</string>
+
     <string name="lelist1_topic">Open Source</string>
     <string name="lelist1_topic_subjects">Key subjects are: \n\u2022 Desktop applications\n\u2022 Server applications\n\u2022 Package management tools\n\u2022 Licenses\n\u2022 FSF, OSI</string>
+    <string name="lelist1_introduction">These tasks deal with some desktop and server applications, as well as the fact that many of them are Open Source!\n\nFurthermore the basics of different package managers are discussed.\nEventually, the Open Source licensing models, the Free Software Foundaition and the Open Source Initiative are dealt with.</string>
+
     <string name="lelist2_topic">Working with Linux</string>
     <string name="lelist2_topic_subjects">Key subjects are: \n\u2022 Knowledge of the Desktop\n\u2022 First steps with the CLI\n\u2022 Commercial Linux</string>
+    <string name="lelist2_introduction">These tasks deal with the active usage of a Linux desktop, but also the CLI is slowly approached.\n\nCommercial linux distributions, privacy and considerations when choosing a password are also topics. </string>
+
     <string name="lelist3_topic">Working on the CLI</string>
     <string name="lelist3_topic_subjects">Key subjects are: \n\u2022 Basic knowledge of the Shell\n\u2022 Structure and input of commands\n\u2022 Command options\n\u2022 Variables, Globbing, Search patterns</string>
+    <string name="lelist3_introduction">These tasks deal with an introduction to the Linux shell.\nIn addition to that, the syntax of a command and how it is entered into the shell is being discussed.\n\nFurthermore, command  options, variables, globbing and search patterns will be a topic.</string>
+
     <string name="lelist4_topic">Getting help on the CLI</string>
     <string name="lelist4_topic_subjects">Key subjects are: \n\u2022 Man(pages)\n\u2022 Info\n\u2022 locate, whatis, whereis</string>
+    <string name="lelist4_introduction">These tasks deal with an introduction to the manpages - the number one way to get help.\n\nMoreover, commands to read documentations and commands to search and find files will be shed a light upon.</string>
+
     <string name="lelist5_topic">Directories and logfiles</string>
     <string name="lelist5_topic_subjects">Key subjects are: \n\u2022 Files and directories\n\u2022 Hidden files and folders\n\u2022 Specifying paths\n\u2022 Navigating the directory structure</string>
+    <string name="lelist5_introduction">These tasks deal with the different directories of a Linux system and important files of it.\n\nHidden files and folders as well as different ways how to reference to a file will be a topic.\nAdditionally, you will learn how to navigate in the directory structure.</string>
+
     <string name="lelist6_topic">Archiving</string>
     <string name="lelist6_topic_subjects">Key subjects are: \n\u2022 Archiving files and folders\n\u2022 Compression techniques and archive types\n\u2022 Tools for archiving\n\u2022 Extracting archives</string>
+    <string name="lelist6_introduction">These tasks focus on how to archive files and directories.\n\nMoreover, different compression types and tools are handled.\nEventually, exercises about compression tools and how to unzip files will be given.</string>
+
     <string name="lelist7_topic">Input- and output redirection</string>
     <string name="lelist7_topic_subjects">Key subjects are: \n\u2022 Pipelines\n\u2022 Redirection of input and output\n\u2022 STDIN, STDOUT, STDERR\n\u2022 File filtering, file processing</string>
+    <string name="lelist7_introduction">The topics of this lection are: pipes, input- and output redirection, the three text streams and data filtering.</string>
+
     <string name="lelist8_topic">Scripting</string>
     <string name="lelist8_topic_subjects">Key subjects are: \n\u2022 File processing, File editing\n\u2022 Basic shell scripts\n\u2022 Loops, Return values, Arguments</string>
+    <string name="lelist8_introduction">The exercises are about editing and processing text files, as well as creating shell scripts.\n\nFurthermore we will dive into loops, arguments and return values.</string>
+
     <string name="lelist9_topic">Hardware</string>
     <string name="lelist9_topic_subjects">Key subjects are: \n\u2022 Hardware\n\u2022 Drivers</string>
+    <string name="lelist9_introduction">This lesson is about hardware and drivers.</string>
+
     <string name="lelist10_topic">Storing data</string>
     <string name="lelist10_topic_subjects">Key subjects are: \n\u2022 Kernel, Processes, PIDs\n\u2022 syslog, klog, dmesg\n\u2022 Libraries, Logfile directories</string>
+    <string name="lelist10_introduction">This lesson is about the role of the kernel, processes and PIDs.\n\nMoreover the exercises will handle syslog, klog and the ringbuffer dmesg.\nIn addition to that, libraries and logfile directories will be looked at.</string>
+
     <string name="lelist11_topic">The PC in a network</string>
     <string name="lelist11_topic_subjects">Key subjects are: \n\u2022 Internet, Networks, Router\n\u2022 DNS\n\u2022 Network settings, Configuration files\n\u2022 route, ping, netstat, ifconfig</string>
+    <string name="lelist11_introduction">This lesson is about computers integrated into a network, and the necessary essentials.\nWe will discuss the Internet, networks in general and the function and role of routers and DNS.\n\nYou will perform tasks that handle the configuration files, setting network parameters and learn some commands like route, ping, netstat and ifconfig.</string>
+
     <string name="lelist12_topic">Users; managing users and groups</string>
     <string name="lelist12_topic_subjects">Key subjects are: \n\u2022 Root, system users, normal users\n\u2022 Commands to manage users/groups\n\u2022 System files for users/groups, UIDs, GIDs</string>
+    <string name="lelist12_introduction">In this lesson you will learn what the different users to on a Linux system.\n\nThe focus is on the root user, but also the built in system users and their characteristics will be pointed out.\nAdditionally, you will learn about GIDs and UIDs, learn commands to manage users and groups and how the configuration files look like.</string>
+
     <string name="lelist13_topic">File permissions</string>
     <string name="lelist13_topic_subjects">Key subjects are: \n\u2022 File permissions\n\u2022 Rights management</string>
+    <string name="lelist13_introduction">The topic of this lesson is about file permissions - both conceptually and practically.\n\nThe role and need of file permissions is discussed, as well as the meaning of the permissions itself.</string>
+
     <string name="lelist14_topic">Special files and directories</string>
     <string name="lelist14_topic_subjects">Key subjects are: \n\u2022 Hard-/Soft-links\n\u2022 /etc, /var, /tmp\n\u2022 Special permissions</string>
+    <string name="lelist14_introduction">This lesson is about special files of directories.\n\nThe concept of hard- and soft links and the role of the /var /etc and /tmp directory will be of interest.\nEventually special permissions and their relation to the stated directories above will be shed a light upon.</string>
+
+    <string name="le_approach">Do research on the basis of the given materials and answer the questions, with the help of the questionnaire.\n\nWhen you finished with the exercises, continue with the evaluation and compare your answers to the ones stated in the sample solution.\nThe questionnaire can be found in the \"materials\" tab; the sample solution in the tab \"evaluation\".</string>
+    <string name="le_evaluation">Discuss your results with another student.\nWhat is different or is the same in your answers?\n\nWhen the results have been discussed, compare your findings to the sample solution.</string>
 
     <string-array name="LinuxEssentialsLandinglist">
         <item>Distributions</item>
@@ -68,11 +100,11 @@
     <string-array name="LinuxEssentialsTabs">
         <item>Topic</item>
         <item>Introduction</item>
-        <item>Tasks</item>
+        <item>Exercises</item>
         <item>Approach</item>
         <item>Materials</item>
         <item>Evaluation</item>
     </string-array>
 
-    <string name="gplv30" translatable="false">\nThe LinuxTutor Companion App is a offline version of the corresponding website.\n\nCopyright &#169; 2016  Niclas Rautenhaus\nThis program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.\nYou should have received a copy of the GNU General Public License along with this program.\nIf not, see http://www.gnu.org/licenses.\nThe developer Niclas Rautenhaus can be contacted via EMail at: info@linux-tutor.de</string>
+    <string name="gplv30" translatable="false">\nThe LinuxTutor Companion App is a offline version of the corresponding website.\n\nCopyright © 2016  Niclas Rautenhaus\nThis program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.\nYou should have received a copy of the GNU General Public License along with this program.\nIf not, see http://www.gnu.org/licenses.\nThe developer Niclas Rautenhaus can be contacted via email at:\ninfo@linux-tutor.de</string>
     </resources>

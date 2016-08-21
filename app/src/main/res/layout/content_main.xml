@@ -33,7 +33,7 @@
         android:onClick="lpic1102_start"
         android:layout_below="@+id/lpic1101button"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />/>
+        android:layout_alignParentEnd="true" />
 
     <Button
         android:layout_width="wrap_content"
@@ -52,9 +52,8 @@
         android:text="@string/manualbutton"
         android:id="@+id/manualbutton"
         android:onClick="manualstart"
+        android:width="550dp"
         android:layout_below="@+id/lpic1102button"
-        android:layout_alignRight="@+id/lpic1102button"
-        android:layout_alignEnd="@+id/lpic1102button"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />/>
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 </RelativeLayout>
