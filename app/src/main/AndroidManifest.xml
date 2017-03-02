@@ -99,7 +99,7 @@
             android:name=".lelists.lelist10"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".display_manual"
+            android:name=".display_manual_frgmt"
             android:screenOrientation="portrait"/>
         <activity
             android:name=".gpllicense"

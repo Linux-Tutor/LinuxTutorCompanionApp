@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="image_description_placeholder">Placeholder</string>
     <string name="app_name">Linux Tutor Companion App</string>
     <string name="action_settings">Informationen</string>
     <string name="About1">Über diese App</string>
@@ -49,6 +50,12 @@
         <item>Vorgehen</item>
         <item>Materialien</item>
         <item>Evaluation</item>
+    </string-array>
+
+    <string-array name="ManualTabs">
+        <item>Schritt 1</item>
+        <item>Schritt 2</item>
+        <item>Schritt 3</item>
     </string-array>
 
     <string name="lelist0_topic_subjects">Themenschwerpunkte sind: \n\u2022 Open-Source-Philosophie\n\u2022 Distributionen\n\u2022 Wahl eines Betriebssystemes\n\u2022 Supportzyklen\n\u2022 GUI vs. CLI</string>

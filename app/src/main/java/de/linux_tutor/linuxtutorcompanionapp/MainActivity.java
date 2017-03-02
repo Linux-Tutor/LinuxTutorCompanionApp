@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
     {
         if (view.getId()==R.id.manualbutton) {
             Log.d("ACTION", "Button Manual clicked");
-            Intent intent = new Intent(this,display_manual.class);
+            Intent intent = new Intent(this,display_manual_frgmt.class);
             startActivity(intent);
         }
     }
