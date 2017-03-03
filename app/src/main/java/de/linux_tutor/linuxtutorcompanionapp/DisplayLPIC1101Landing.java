@@ -3,9 +3,6 @@ package de.linux_tutor.linuxtutorcompanionapp;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.widget.ArrayAdapter;
-import android.widget.ListAdapter;
-import android.widget.ListView;
 
 public class DisplayLPIC1101Landing extends AppCompatActivity {
     Intent intent = getIntent();

@@ -9,16 +9,12 @@ import android.view.ViewGroup;
 
 import de.linux_tutor.linuxtutorcompanionapp.R;
 
-/**
- * Created by Niclas on 19.08.2016.
- */
 public class fragment1_le4 extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater,
                              @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.fragment1_le4_layout, container, false);
 
-        return v;
+        return inflater.inflate(R.layout.fragment1_le4_layout, container, false);
     }
 }

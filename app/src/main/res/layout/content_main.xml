@@ -15,7 +15,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Linux Essentials"
+        android:text="@string/Linux_Essentials_Button"
         android:id="@+id/linuxessentialsbutton"
         android:width="550dp"
         android:onClick="linuxessentials_start"
@@ -27,7 +27,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="LPIC-1 102"
+        android:text="@string/LPIC_1_102_Button"
         android:id="@+id/lpic1102button"
         android:width="550dp"
         android:onClick="lpic1102_start"
@@ -38,7 +38,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="LPIC-1 101"
+        android:text="@string/LPIC_1_101_Button"
         android:id="@+id/lpic1101button"
         android:width="550dp"
         android:onClick="lpic1101_start"

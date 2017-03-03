@@ -25,8 +25,7 @@ public class lelist12 extends AppCompatActivity implements TabHost.OnTabChangeLi
 
     private TabHost tabHost;
     private ViewPager viewPager;
-    private FragmentPagerAdapter_le12 myViewPagerAdapter;
-    int i = 0;
+    private int i = 0;
 
     // fake content for tabhost
     class FakeContent implements TabHost.TabContentFactory {
@@ -61,7 +60,7 @@ public class lelist12 extends AppCompatActivity implements TabHost.OnTabChangeLi
     }
 
     private void initializeViewPager() {
-        List<Fragment> fragments_le12 = new Vector<Fragment>();
+        List<Fragment> fragments_le12 = new Vector<>();
 
         fragments_le12.add(new fragment1_le12());
         fragments_le12.add(new fragment2_le12());
@@ -70,10 +69,11 @@ public class lelist12 extends AppCompatActivity implements TabHost.OnTabChangeLi
         fragments_le12.add(new fragment5_le12());
         fragments_le12.add(new fragment6_le12());
 
-        this.myViewPagerAdapter = new FragmentPagerAdapter_le12(
+        FragmentPagerAdapter_le12 myViewPagerAdapter = new FragmentPagerAdapter_le12(
                 getSupportFragmentManager(), fragments_le12);
         this.viewPager = (ViewPager) super.findViewById(R.id.viewPager);
-        this.viewPager.setAdapter(this.myViewPagerAdapter);
+        assert this.viewPager != null;
+        this.viewPager.setAdapter(myViewPagerAdapter);
         this.viewPager.setOnPageChangeListener(this);
 
         onRestart();
@@ -83,14 +83,15 @@ public class lelist12 extends AppCompatActivity implements TabHost.OnTabChangeLi
     private void initTabHost() {
 
         tabHost = (TabHost) findViewById(android.R.id.tabhost);
+        assert tabHost != null;
         tabHost.setup();
 
         String[]LinuxEssentialsTabs = getResources().getStringArray(R.array.LinuxEssentialsTabs);
 
-        for (int i = 0; i < LinuxEssentialsTabs.length; i++) {
+        for (String LinuxEssentialsTab : LinuxEssentialsTabs) {
             TabHost.TabSpec tabSpec;
-            tabSpec = tabHost.newTabSpec(LinuxEssentialsTabs[i]);
-            tabSpec.setIndicator(LinuxEssentialsTabs[i]);
+            tabSpec = tabHost.newTabSpec(LinuxEssentialsTab);
+            tabSpec.setIndicator(LinuxEssentialsTab);
             tabSpec.setContent(new FakeContent(getApplicationContext()));
             tabHost.addTab(tabSpec);
         }
@@ -104,6 +105,7 @@ public class lelist12 extends AppCompatActivity implements TabHost.OnTabChangeLi
 
         HorizontalScrollView hScrollView = (HorizontalScrollView) findViewById(R.id.hScrollView);
         View tabView = tabHost.getCurrentTabView();
+        assert hScrollView != null;
         int scrollPos = tabView.getLeft()
                 - (hScrollView.getWidth() - tabView.getWidth()) / 2;
         hScrollView.smoothScrollTo(scrollPos, 0);

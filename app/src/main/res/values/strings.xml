@@ -1,6 +1,10 @@
 <resources>
     <string name="image_description_placeholder">Placeholder</string>
     <string name="manualbutton">How does this work?</string>
+    <string name="Linux_Essentials_Button">Linux Essentials</string>
+    <string name="LPIC_1_101_Button">LPIC-1 101</string>
+    <string name="LPIC_1_102_Button">LPIC-1 102</string>
+    <string name="GPL_Button">GPL v3.0 License Text</string>
     <string name="app_name">Linux Tutor Companion App</string>
     <string name="action_settings">About</string>
     <string name="About1">About this App</string>
@@ -8,7 +12,6 @@
     <string name="About3">Contact me at: info@linux-tutor.de</string>
     <string name="About4">Further information at:\nwww.linux-tutor.de</string>
     <string name="About5">This app is for educational purposes only and does not pursue commercial interests. \nThis app is Ad-free and will always be. \nIf you however would like to donate a few bucks, feel free to do so on Flattr: </string>
-    <string name="manual1">Manual</string>
     <string name="manualtab1">Manual - Step 1</string>
     <string name="manualtab2">Manual - Step 2</string>
     <string name="manualtab3">Manual - Step 3</string>
@@ -71,7 +74,6 @@
 
     <string name="lelist13_topic">File permissions</string>
     <string name="lelist13_topic_subjects">Key subjects are: \n\u2022 File permissions\n\u2022 Rights management</string>
-    <string name="lelist13_introduction">The topic of this lesson is about file permissions - both conceptually and practically.\n\nThe role and need of file permissions is discussed, as well as the meaning of the permissions itself.</string>
 
     <string name="lelist14_topic">Special files and directories</string>
     <string name="lelist14_topic_subjects">Key subjects are: \n\u2022 Hard-/Soft-links\n\u2022 /etc, /var, /tmp\n\u2022 Special permissions</string>

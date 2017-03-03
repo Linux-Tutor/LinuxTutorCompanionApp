@@ -22,8 +22,7 @@ public class display_manual_frgmt extends AppCompatActivity implements TabHost.O
 
     private TabHost tabHost;
     private ViewPager viewPager;
-    private FragmentPagerAdapter_manual myViewPagerAdapter;
-    int i = 0;
+    private int i = 0;
 
     // fake content for tabhost
     class FakeContent implements TabHost.TabContentFactory {
@@ -58,17 +57,18 @@ public class display_manual_frgmt extends AppCompatActivity implements TabHost.O
     }
 
     private void initializeViewPager() {
-        List<Fragment> fragments_manual = new Vector<Fragment>();
+        List<Fragment> fragments_manual = new Vector<>();
 
         fragments_manual.add(new fragment_manual1());
         fragments_manual.add(new fragment_manual2());
         fragments_manual.add(new fragment_manual3());
 
 
-        this.myViewPagerAdapter = new FragmentPagerAdapter_manual(
+        FragmentPagerAdapter_manual myViewPagerAdapter = new FragmentPagerAdapter_manual(
                 getSupportFragmentManager(), fragments_manual);
         this.viewPager = (ViewPager) super.findViewById(R.id.viewPager);
-        this.viewPager.setAdapter(this.myViewPagerAdapter);
+        assert this.viewPager != null;
+        this.viewPager.setAdapter(myViewPagerAdapter);
         this.viewPager.setOnPageChangeListener(this);
 
         onRestart();
@@ -78,14 +78,15 @@ public class display_manual_frgmt extends AppCompatActivity implements TabHost.O
     private void initTabHost() {
 
         tabHost = (TabHost) findViewById(android.R.id.tabhost);
+        assert tabHost != null;
         tabHost.setup();
 
         String[]ManualTabs = getResources().getStringArray(R.array.ManualTabs);
 
-        for (int i = 0; i < ManualTabs.length; i++) {
+        for (String ManualTab : ManualTabs) {
             TabHost.TabSpec tabSpec;
-            tabSpec = tabHost.newTabSpec(ManualTabs[i]);
-            tabSpec.setIndicator(ManualTabs[i]);
+            tabSpec = tabHost.newTabSpec(ManualTab);
+            tabSpec.setIndicator(ManualTab);
             tabSpec.setContent(new FakeContent(getApplicationContext()));
             tabHost.addTab(tabSpec);
         }
@@ -99,6 +100,7 @@ public class display_manual_frgmt extends AppCompatActivity implements TabHost.O
 
         HorizontalScrollView hScrollView = (HorizontalScrollView) findViewById(R.id.hScrollView);
         View tabView = tabHost.getCurrentTabView();
+        assert hScrollView != null;
         int scrollPos = tabView.getLeft()
                 - (hScrollView.getWidth() - tabView.getWidth()) / 2;
         hScrollView.smoothScrollTo(scrollPos, 0);

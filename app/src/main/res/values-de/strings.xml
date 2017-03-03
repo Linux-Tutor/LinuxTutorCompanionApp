@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="image_description_placeholder">Placeholder</string>
+    <string name="manualbutton">Wie funktioniert die App?</string>
+    <string name="Linux_Essentials_Button">Linux Essentials</string>
+    <string name="LPIC_1_101_Button">LPIC-1 101</string>
+    <string name="LPIC_1_102_Button">LPIC-1 102</string>
+    <string name="GPL_Button">GPL v3.0 License Text</string>
     <string name="app_name">Linux Tutor Companion App</string>
     <string name="action_settings">Informationen</string>
     <string name="About1">Über diese App</string>
@@ -72,8 +77,6 @@
     <string name="lelist12_topic_subjects">Themenschwerpunkte sind: \n\u2022 Root, Systemuser, Normale User\n\u2022 Befehle zur Benutzer/Gruppenverwaltung\n\u2022 Systemdateien für Benutzer/Gruppen\n\u2022 UIDs, GIDs</string>
     <string name="lelist13_topic_subjects">Themenschwerpunkte sind: \n\u2022 Dateiberechtigungen\n\u2022 Rechteverwaltung</string>
     <string name="lelist14_topic_subjects">Themenschwerpunkte sind: \n\u2022 Hard- /Softlinks\n\u2022 /etc, /var, /tmp\n\u2022 Spezielle Berechtigungen</string>
-    <string name="manualbutton">Wie funktioniert die App?</string>
-    <string name="manual1">Bedienungsanleitung</string>
     <string name="manual2">Wählen Sie eine Kategorie:\n\u2022 Linux Essentials\n\u2022 LPIC-1 101\n\u2022 LPIC-1 102</string>
     <string name="manual3">Wählen Sie ein Objekt aus der Liste, z.B "Distributionen"</string>
     <string name="manual4">Oben werden  6 Tabs angezeigt, nummeriert von 1 bis 6. Diese stehen für:\n\u2022 1: Thema\n\u2022 2: Einleitung\n\u2022 3: Aufgaben\n\u2022 4: Vorgehensweise\n\u2022 5: Materialien\n\u2022 6: Evaluation</string>
@@ -96,6 +99,5 @@
     <string name="lelist10_introduction">Diese Aufgaben beschäftigen sich der Rolle des Kernels, den Prozessem sowie den PIDs.\n\nAußerdem wird in den Aufgaben auf syslog, klog und den Ringbuffer dmesg eingegangen.\nEbenfalls werden Libraries und Log-Verzeichnisse behandelt.</string>
     <string name="lelist11_introduction">Diese Aufgaben beschäftigen sich mit dem PC im Netzwerk, sowie einiger Grundlagen dazu.\nEs wird auf das Internet, Netzwerke im Allgemeinen, sowie der Funktion von Routern und DNS eingegangen.\n\nAußerdem wird das setzen von Netzwerkeinstellungen und die wichtigen Konfigurationsdateien näher betrachtet.\nAuch wird sich mit den wichtigen Befehle route, ping, netstat, ifconfig befasst. </string>
     <string name="lelist12_introduction">Diese Aufgaben beschäftigen sich mit den unterschiedlichen Benutzern auf einem Linux-System.\n\nIm Fokus steht dabei Root, auch werden Systemuser und deren Eigenschaften herausgestellt.\n\nDes Weiteren wird auf UIDs und GIDs eingegangen, sowie Befehle zur Verwaltung von Benutzer und Gruppen, und die Konfigurationsdateien auf die diese zugreifen.</string>
-    <string name="lelist13_introduction">Diese Aufgaben beschäftigen sich mit Dateiberechtigungen, sowohl konzeptuell, als auch praktisch.\n\nDabei wird auf die verschiedenen Rechte und deren Bedeutung eingegangen, als auch die Bedeutung der Rechteverwaltung an sich.</string>
     <string name="lelist14_introduction">Diese Aufgaben beschäftigen sich mit speziellen Dateien und Verzeichnissen.\n\nDabei wird auf sogenannte Hard- und Softlinks, als auch die besonderen Verzeichnisse "/etc", "/var" und "/tmp" eingegangen.\nAbschließend werden spezielle Berechtigungen und deren Zusammenhang mit diesen Verzeichnissen beleuchtet. </string>
 </resources>

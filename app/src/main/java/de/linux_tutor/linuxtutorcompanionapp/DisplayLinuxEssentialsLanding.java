@@ -34,8 +34,9 @@ Intent intent = getIntent();
         setContentView(R.layout.activity_display_linux_essentials_landing);
 
        String[] LinuxEssentialsLandinglist = getResources().getStringArray(R.array.LinuxEssentialsLandinglist);
-        ListAdapter LinuxEssentialsLandingAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, LinuxEssentialsLandinglist);
+        ListAdapter LinuxEssentialsLandingAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, LinuxEssentialsLandinglist);
         ListView LinuxEssentialsLandinglistListView = (ListView) findViewById(R.id.LinuxEssentialsLandinglistListView);
+        assert LinuxEssentialsLandinglistListView != null;
         LinuxEssentialsLandinglistListView.setAdapter(LinuxEssentialsLandingAdapter);
 
         LinuxEssentialsLandinglistListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
